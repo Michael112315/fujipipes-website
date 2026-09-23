@@ -1,0 +1,2 @@
+type Props = { eyebrow:string; title:string; highlight?:string; description:string; image:string };
+export default function Hero({eyebrow,title,highlight,description,image}:Props){return <section className="inner-hero" style={{backgroundImage:`linear-gradient(90deg,rgba(2,31,72,.94),rgba(2,31,72,.65),rgba(2,31,72,.15)),url("${image}")`}}><div className="inner-hero-content"><div className="breadcrumb">Home &nbsp;›&nbsp; {title}</div><div className="hero-eyebrow">{eyebrow}</div><h1>{title}{highlight&&<><br/><span>{highlight}</span></>}</h1><p>{description}</p></div></section>}
