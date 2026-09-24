@@ -1138,7 +1138,7 @@ __turbopack_context__.s([
     ()=>solutions
 ]);
 const img = {
-    hero: "https://images.unsplash.com/photo-1504917595217-d4dc5ebe6122?auto=format&fit=crop&w=1800&q=85",
+    hero: "https://fujipipes.com/wp-content/uploads/2026/09/ChatGPT-Image-Sep-24-2026-03_32_25-PM.webp",
     city: "https://images.unsplash.com/photo-1518005020951-eccb494ad742?auto=format&fit=crop&w=1200&q=80",
     water: "https://images.unsplash.com/photo-1508514177221-188b1cf16e9d?auto=format&fit=crop&w=900&q=80",
     agriculture: "https://images.unsplash.com/photo-1500382017468-9049fed747ef?auto=format&fit=crop&w=900&q=80",

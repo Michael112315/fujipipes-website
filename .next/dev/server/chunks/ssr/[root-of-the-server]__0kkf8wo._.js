@@ -41,8 +41,7 @@ function Home() {
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                             children: [
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                    className: "hero-eyebrow",
-                                    children: "PIPING SOLUTIONS FOR A"
+                                    className: "hero-eyebrow"
                                 }, void 0, false, {
                                     fileName: "[project]/app/page.tsx",
                                     lineNumber: 7,
@@ -50,31 +49,31 @@ function Home() {
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("h1", {
                                     children: [
-                                        "STRONGER",
+                                        "FLOW WITH",
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("br", {}, void 0, false, {
                                             fileName: "[project]/app/page.tsx",
                                             lineNumber: 7,
-                                            columnNumber: 266
+                                            columnNumber: 245
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
-                                            children: "PHILIPPINES"
+                                            children: "FUJIPIPES"
                                         }, void 0, false, {
                                             fileName: "[project]/app/page.tsx",
                                             lineNumber: 7,
-                                            columnNumber: 271
+                                            columnNumber: 250
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/app/page.tsx",
                                     lineNumber: 7,
-                                    columnNumber: 254
+                                    columnNumber: 232
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
                                     children: "High-quality piping and water storage solutions for infrastructure, communities and a more sustainable tomorrow."
                                 }, void 0, false, {
                                     fileName: "[project]/app/page.tsx",
                                     lineNumber: 7,
-                                    columnNumber: 300
+                                    columnNumber: 277
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                     className: "hero-buttons",
@@ -86,7 +85,7 @@ function Home() {
                                         }, void 0, false, {
                                             fileName: "[project]/app/page.tsx",
                                             lineNumber: 7,
-                                            columnNumber: 449
+                                            columnNumber: 426
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$react$2d$server$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["default"], {
                                             href: "/request-a-quote",
@@ -95,13 +94,13 @@ function Home() {
                                         }, void 0, false, {
                                             fileName: "[project]/app/page.tsx",
                                             lineNumber: 7,
-                                            columnNumber: 525
+                                            columnNumber: 502
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/app/page.tsx",
                                     lineNumber: 7,
-                                    columnNumber: 419
+                                    columnNumber: 396
                                 }, this)
                             ]
                         }, void 0, true, {
@@ -119,7 +118,7 @@ function Home() {
                                 }, void 0, false, {
                                     fileName: "[project]/app/page.tsx",
                                     lineNumber: 7,
-                                    columnNumber: 647
+                                    columnNumber: 624
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(HeroFeature, {
                                     icon: "⚙",
@@ -128,7 +127,7 @@ function Home() {
                                 }, void 0, false, {
                                     fileName: "[project]/app/page.tsx",
                                     lineNumber: 7,
-                                    columnNumber: 717
+                                    columnNumber: 694
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(HeroFeature, {
                                     icon: "🍃",
@@ -137,7 +136,7 @@ function Home() {
                                 }, void 0, false, {
                                     fileName: "[project]/app/page.tsx",
                                     lineNumber: 7,
-                                    columnNumber: 787
+                                    columnNumber: 764
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(HeroFeature, {
                                     icon: "👥",
@@ -146,7 +145,7 @@ function Home() {
                                 }, void 0, false, {
                                     fileName: "[project]/app/page.tsx",
                                     lineNumber: 7,
-                                    columnNumber: 863
+                                    columnNumber: 840
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(HeroFeature, {
                                     icon: "✓",
@@ -155,13 +154,13 @@ function Home() {
                                 }, void 0, false, {
                                     fileName: "[project]/app/page.tsx",
                                     lineNumber: 7,
-                                    columnNumber: 953
+                                    columnNumber: 930
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "[project]/app/page.tsx",
                             lineNumber: 7,
-                            columnNumber: 616
+                            columnNumber: 593
                         }, this)
                     ]
                 }, void 0, true, {
@@ -989,7 +988,7 @@ __turbopack_context__.s([
     ()=>solutions
 ]);
 const img = {
-    hero: "https://images.unsplash.com/photo-1504917595217-d4dc5ebe6122?auto=format&fit=crop&w=1800&q=85",
+    hero: "https://fujipipes.com/wp-content/uploads/2026/09/ChatGPT-Image-Sep-24-2026-03_32_25-PM.webp",
     city: "https://images.unsplash.com/photo-1518005020951-eccb494ad742?auto=format&fit=crop&w=1200&q=80",
     water: "https://images.unsplash.com/photo-1508514177221-188b1cf16e9d?auto=format&fit=crop&w=900&q=80",
     agriculture: "https://images.unsplash.com/photo-1500382017468-9049fed747ef?auto=format&fit=crop&w=900&q=80",
