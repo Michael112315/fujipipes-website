@@ -3,10 +3,226 @@ import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import { img, products, solutions, projects } from "@/components/siteData";
 
-export default function Home(){return <><Header/>
-<section className="home-hero" style={{backgroundImage:`linear-gradient(90deg,rgba(0,29,69,.95),rgba(0,29,69,.62),rgba(0,29,69,.15)),url("${img.hero}")`}}><div className="home-hero-content"><div><div className="hero-eyebrow"></div><h1>FLOW WITH<br/><span>FUJIPIPES</span></h1><p>High-quality piping and water storage solutions for infrastructure, communities and a more sustainable tomorrow.</p><div className="hero-buttons"><Link href="/products" className="blue-button">Explore Our Products →</Link><Link href="/request-a-quote" className="outline-button">Request a Quote</Link></div></div><div className="hero-features"><HeroFeature icon="⬡" title="DURABLE" text="Built for long-term use"/><HeroFeature icon="⚙" title="RELIABLE" text="Consistent performance"/><HeroFeature icon="🍃" title="SUSTAINABLE" text="Environmentally friendly"/><HeroFeature icon="👥" title="NATIONWIDE PRESENCE" text="Trusted across the Philippines"/><HeroFeature icon="✓" title="CERTIFIED QUALITY" text="Meets industry standards"/></div></div></section>
-<section className="section"><div className="section-heading"><div><small>OUR PRODUCT CATEGORIES</small><h2>Complete Piping and Water Storage Solutions</h2></div><Link href="/products">View All Products →</Link></div><div className="home-products">{products.map(([title,, ,image])=><Link href="/products" className="home-product" key={title}><img src={image} alt={title}/><div><b>{title}</b><span>→</span></div></Link>)}</div></section>
-<section className="home-solutions"><div className="solution-intro"><small>SOLUTIONS FOR</small><h2>REAL-WORLD NEEDS</h2><p>Our products are trusted in a wide range of applications across the country.</p><Link href="/solutions" className="blue-button">Explore Solutions →</Link></div><div className="solution-mini-grid">{solutions.slice(0,6).map(([title,, ,image])=><Link href="/solutions" className="solution-mini" key={title}><img src={image} alt={title}/><b>{title}</b></Link>)}</div></section>
-<section className="section projects-home"><div className="project-heading"><small>FEATURED PROJECTS</small><h2>Building Key Infrastructure Across the Philippines</h2><Link href="/projects">View All Projects →</Link></div><div className="project-mini-grid">{projects.slice(0,5).map(([title,,location,image])=><Link href="/projects" className="project-mini" key={title}><img src={image} alt={title}/><b>{title}</b><span>{location}</span></Link>)}</div></section>
-<section className="large-blue-cta"><div><small>LET'S BUILD A STRONGER TOMORROW TOGETHER</small><h2>Reliable piping solutions for stronger communities.</h2><p>Get in touch with our team for inquiries, technical support or a quotation.</p></div><Link href="/request-a-quote" className="white-button">Request a Quote →</Link></section><Footer/></>}
-function HeroFeature({icon,title,text}:{icon:string;title:string;text:string}){return <div className="hero-feature"><div className="feature-icon">{icon}</div><div><strong>{title}</strong><span>{text}</span></div></div>}
+export default function Home() {
+  return (
+    <>
+      <Header />
+
+      {/* HERO */}
+      <section
+        className="home-hero"
+        style={{
+          backgroundImage: `linear-gradient(
+            90deg,
+            rgba(0,29,69,.95),
+            rgba(0,29,69,.62),
+            rgba(0,29,69,.15)
+          ), url("${img.hero}")`,
+        }}
+      >
+        <div className="home-hero-content">
+
+          <div>
+            <div className="hero-eyebrow"></div>
+
+            <h1>
+              FLOW WITH
+              <br />
+              <span>FUJIPIPES</span>
+            </h1>
+
+            <p>
+              High-quality piping and water storage solutions for
+              infrastructure, communities and a more sustainable tomorrow.
+            </p>
+
+            <div className="hero-buttons">
+              <Link href="/products" className="blue-button">
+                Explore Our Products →
+              </Link>
+
+              <Link href="/request-a-quote" className="outline-button">
+                Request a Quote
+              </Link>
+            </div>
+          </div>
+
+         
+
+        </div>
+      </section>
+
+
+      {/* PRODUCT CATEGORIES */}
+      <section className="section">
+
+        <div className="section-heading">
+
+          <div>
+            <small>OUR PRODUCT CATEGORIES</small>
+
+            <h2>
+              Complete Piping and Water Storage Solutions
+            </h2>
+          </div>
+
+          <Link href="/products">
+            View All Products →
+          </Link>
+
+        </div>
+
+
+        <div className="home-products">
+
+          {products
+            //.filter(([title]) => title !== "Drainage Pipes")
+            .map(([title, , , image]) => (
+
+              <Link
+                href="/products"
+                className="home-product"
+                key={title}
+              >
+
+                <img
+                  src={image}
+                  alt={title}
+                />
+
+                <div>
+                  <b>{title}</b>
+                  <span>→</span>
+                </div>
+
+              </Link>
+
+            ))}
+
+        </div>
+
+      </section>
+
+
+      {/* SOLUTIONS */}
+      
+
+
+
+      {/* FEATURED PROJECTS */}
+      <section className="section projects-home">
+
+        <div className="project-heading">
+
+          <small>FEATURED PROJECTS</small>
+
+          <h2>
+            Building Key Infrastructure Across the Philippines
+          </h2>
+
+          <Link href="/projects">
+            View All Projects →
+          </Link>
+
+        </div>
+
+
+        <div className="project-mini-grid">
+
+          {projects
+            .slice(0, 5)
+            .map(([title, , location, image]) => (
+
+              <Link
+                href="/projects"
+                className="project-mini"
+                key={title}
+              >
+
+                <img
+                  src={image}
+                  alt={title}
+                />
+
+                <b>{title}</b>
+
+                <span>{location}</span>
+
+              </Link>
+
+            ))}
+
+        </div>
+
+      </section>
+
+
+      {/* BLUE CTA */}
+      <section className="large-blue-cta">
+
+        <div>
+
+          <small>
+            LET'S BUILD A STRONGER TOMORROW TOGETHER
+          </small>
+
+          <h2>
+            Reliable piping solutions for stronger communities.
+          </h2>
+
+          <p>
+            Get in touch with our team for inquiries, technical
+            support or a quotation.
+          </p>
+
+        </div>
+
+        <Link
+          href="/request-a-quote"
+          className="white-button"
+        >
+          Request a Quote →
+        </Link>
+
+      </section>
+
+
+      <Footer />
+
+    </>
+  );
+}
+
+
+/* HERO FEATURE COMPONENT */
+function HeroFeature({
+  icon,
+  title,
+  text,
+}: {
+  icon: string;
+  title: string;
+  text: string;
+}) {
+  return (
+    <div className="hero-feature">
+
+      <div className="feature-icon">
+        {icon}
+      </div>
+
+      <div>
+
+        <strong>
+          {title}
+        </strong>
+
+        <span>
+          {text}
+        </span>
+
+      </div>
+
+    </div>
+  );
+}

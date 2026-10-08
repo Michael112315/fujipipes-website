@@ -7,30 +7,30 @@ export const img = {
   infrastructure: "https://images.unsplash.com/photo-1541888946425-d81bb19240f5?auto=format&fit=crop&w=900&q=80",
   office: "https://images.unsplash.com/photo-1497366754035-f200968a6e72?auto=format&fit=crop&w=1600&q=85",
   factory: "https://images.unsplash.com/photo-1581092160562-40aa08e78837?auto=format&fit=crop&w=1200&q=85",
-  hdpe: "https://placehold.co/900x600/0b3b78/ffffff?text=HDPE+Pipes",
-  upvc: "https://placehold.co/900x600/e85b20/ffffff?text=uPVC+Pipes",
-  ppr: "https://placehold.co/900x600/08a986/ffffff?text=PPR+Pipes",
-  sanitary: "https://placehold.co/900x600/777777/ffffff?text=Sanitary+Pipes",
-  drainage: "https://placehold.co/900x600/222222/ffffff?text=Drainage+Pipes",
-  electrical: "https://placehold.co/900x600/e66a18/ffffff?text=Electrical+Pipes",
-  tanks: "https://placehold.co/900x600/0876e8/ffffff?text=Water+Tanks",
-  roofing: "https://placehold.co/900x600/758493/ffffff?text=Roofing",
+  hdpe: "https://fujipipes.com/wp-content/uploads/2026/09/ChatGPT-Image-Sep-28-2026-03_04_33-PM.webp",
+  blue: "https://fujipipes.com/wp-content/uploads/2026/10/Glossy-Blue-PVC-Pipe-Fittings-Display.webp",
+  ppr: "https://fujipipes.com/wp-content/uploads/2026/10/White-PVC-Pipes-and-Plumbing-Fittings.webp",
+  sanitary: "https://fujipipes.com/wp-content/uploads/2026/09/ChatGPT-Image-Sep-28-2026-03_30_50-PM.webp",
+ // drainage: "https://fujipipes.com/wp-content/uploads/2026/09/ChatGPT-Image-Sep-28-2026-03_30_50-PM.webp",
+  electrical: "https://fujipipes.com/wp-content/uploads/2026/10/Glossy-Orange-PVC-Pipe-Collection.webp",
+  tanks: "https://fujipipes.com/wp-content/uploads/2026/09/0-02-06-67aabe1081eb0dceb0227afd562a02542faf7b52d15016b925701ba31ea05b98_59842af2fb8e2ba9.webp",
+  roofing: "https://fujipipes.com/wp-content/uploads/2026/09/ChatGPT-Image-Sep-28-2026-03_36_46-PM.webp",
 };
 
 export const products = [
   ["HDPE Pipes & Fittings", "HDPE", "Durable. Strong. Reliable.", img.hdpe],
-  ["uPVC Pipes & Fittings", "uPVC", "Versatile for various applications.", img.upvc],
+  ["Blue Pipes & Fittings", "Blue", "Reliable flow, built for lasting performance.", img.blue],
   ["PPR Pipes & Fittings", "PPR", "Leak-proof. Long-lasting.", img.ppr],
   ["Sanitary Pipes & Fittings", "Sanitary", "Safe and hygienic plumbing solutions.", img.sanitary],
-  ["Drainage Pipes", "Drainage", "Efficient flow. Stronger infrastructure.", img.drainage],
-  ["Electrical Pipes & Fittings", "Electrical", "Safe solutions for electrical systems.", img.electrical],
+  // ["Drainage Pipes", "Drainage", "Efficient flow. Stronger infrastructure.", img.drainage],
+  ["Electrical Pipes & Fittings", "Electrical", "Safe solutions for electrical swystems.", img.electrical],
   ["Tanks & Storage Solutions", "Tanks", "Reliable water storage for every need.", img.tanks],
   ["Roofing Solutions", "Roofing", "Durable. Weather-resistant.", img.roofing],
 ] as const;
 
 export const solutions = [
   ["Water Supply", "💧", "Reliable piping solutions for safe and efficient distribution of potable water.", img.water],
-  ["Drainage & Sewerage", "〰", "Durable systems for flood control, drainage and wastewater management.", img.drainage],
+  //["Drainage & Sewerage", "〰", "Durable systems for flood control, drainage and wastewater management.", img.drainage],
   ["Agriculture & Irrigation", "🍃", "Efficient and long-lasting piping solutions for modern farming.", img.agriculture],
   ["Electrical & Telecom", "⚡", "Protective piping systems for electrical and telecommunication networks.", img.electrical],
   ["Infrastructure", "🏢", "Trusted solutions for roads, bridges and public infrastructure projects.", img.infrastructure],
@@ -41,7 +41,7 @@ export const solutions = [
 
 export const projects = [
   ["Bulk Water Supply Project", "Water Supply", "Bacolod City, Negros Occidental", img.water, "HDPE pipes for reliable and efficient water distribution."],
-  ["Urban Drainage Improvement", "Drainage & Sewerage", "Cebu City, Cebu", img.drainage, "HDPE drainage pipes for flood control and stormwater management."],
+  //["Urban Drainage Improvement", "Drainage & Sewerage", "Cebu City, Cebu", img.drainage, "HDPE drainage pipes for flood control and stormwater management."],
   ["Irrigation System Project", "Agriculture", "San Carlos City, Negros Occidental", img.agriculture, "HDPE pipes for efficient agricultural water supply."],
   ["Electrical Conduit Installation", "Infrastructure", "Iloilo City, Iloilo", img.electrical, "uPVC electrical pipes for a safer electrical system."],
   ["Infrastructure Development", "Infrastructure", "Manila, Metro Manila", img.infrastructure, "HDPE and uPVC pipes for public infrastructure projects."],
